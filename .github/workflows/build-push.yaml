@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IMAGE_NAME: DeleteTasks
+      IMAGE_NAME: deletetasks
       IMAGE_TAG: v1
       ACR_NAME: todoazureacr
       ACR_LOGIN_SERVER: todoazureacr.azurecr.io
