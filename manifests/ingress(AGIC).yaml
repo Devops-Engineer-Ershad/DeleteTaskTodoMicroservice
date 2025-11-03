@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: delete-task-ingress
 spec:
-  ingressClassName: nginx
+  ingressClassName: azure-application-gateway
   rules:
   - host: delete-task.ak4t7.shop
     http:
